@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Global */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header */
+
+header{
+    background-color: #000;
+    padding: 24px 0px 24px 0px;
+    min-height: 56px;
+    border-bottom: 3px solid grey;
+}
+
+header h1{
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    float: left;
+}
+
+header .logo-first{
+    color: grey;
+}
+
+header nav{
+    float: right;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+}
+
+header li{
+    display: inline-block;
+    padding: 20px 0px 20px 32px;
+}
+
+header a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+header .current{
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+/* Hero */
+
+#hero{
+    min-height: 400px;
+    background: url('../img/lens.jpg') no-repeat, linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    color: white;
+    position: relative;
+    }
+
+    #hero h1{
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-size: 64px;
+    }
+
+    #hero p{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* Works */
+
+
+    #works{
+        margin: 50px auto 100px;
+        padding: 0px 2%;
+    }
+
+    #works .works-intro{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #works hr{
+        width: 40px;
+        height: 1px;
+        background-color: black;
+    }
+
+    #works .photo{
+        text-align: center;
+        margin: 5px;
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    #works .photo img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #works .photo img:hover{
+        opacity: .8;
+    }
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Media Queries */
+
+
+
+
+
+
