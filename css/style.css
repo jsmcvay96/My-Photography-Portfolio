@@ -82,6 +82,8 @@ header .current{
     text-align: center;
     color: white;
     position: relative;
+    -webkit-box-shadow: 5px 5px 35px -8px #000000; 
+    box-shadow: 5px 5px 35px -8px #000000;
     }
 
     #hero h1{
@@ -123,11 +125,14 @@ header .current{
         justify-content: space-evenly;
     }
 
+
     #works .photo{
         flex-basis: 300px;
         height: 300px;
         margin: 1%;
         padding: 1%;
+        -webkit-box-shadow: 5px 5px 15px -8px #000000; 
+        box-shadow: 5px 5px 15px -8px #000000;
     }
 
 
@@ -136,6 +141,8 @@ header .current{
         height: 100%;
         object-fit: cover;
     }
+
+    
 
     #works .photo img:hover{
         opacity: .8;
